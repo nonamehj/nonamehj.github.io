@@ -11,6 +11,7 @@ const Projects = ({
   features,
   description,
   skillDec,
+  projectLinks,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -23,6 +24,7 @@ const Projects = ({
             title={title}
             setIsOpen={setIsOpen}
             isOpen={isOpen}
+            projectLinks={projectLinks}
           />
         ) : (
           <SkillDetail

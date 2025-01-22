@@ -101,6 +101,10 @@ export const data = [
     ],
     description:
       "MovieList 프로젝트는 TMDB API를 사용하여 영화 데이터를 가져오고 표시하는 애플리케이션입니다. 사용자는 영화를 검색하고 해당 영화에 대한 상세 정보를 볼 수 있습니다. 이 프로젝트를 통해 외부 API와 통신하고 데이터를 활용하는 방법을 배웠습니다. 전체 디자인은 사용자 친화적으로 CSS를 사용하여 만들어졌습니다.",
+    projectLinks: {
+      result: "https://nonamehj.github.io/project-movielist",
+      source: "https://github.com/nonamehj/project-movielist",
+    },
   },
   {
     id: 4,
@@ -131,6 +135,10 @@ export const data = [
     ],
     description:
       "간단한 테이블 오더 프로젝트는 React의 useReducer를 사용하여 상태 관리를 하는 애플리케이션입니다. 사용자는 상품 목록을 보고, 상품을 선택하여 주문할 수 있습니다. 주문 내역은 useReducer를 사용하여 효율적으로 관리됩니다. 이 프로젝트를 통해 복잡한 상태 관리와 데이터 흐름을 처리하는 방법을 배웠습니다. UI는 간단하고 명확하게 CSS로 설계되었습니다.",
+    projectLinks: {
+      result: "https://nonamehj.github.io/project-tableorder",
+      source: "https://github.com/nonamehj/project-tableorder",
+    },
   },
 ];
 
