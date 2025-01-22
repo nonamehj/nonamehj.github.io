@@ -1,0 +1,236 @@
+.completed-items {
+  z-index: 999;
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  background-color: #f0f0f0;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.completed-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 0.25rem; */
+  /* border: 1px solid rgba(0, 0, 0, 0.3); */
+}
+.completed-center p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.complete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  color: #000;
+}
+
+.complete-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/*모바일 세로*/
+@media screen and (max-width: 479.99px) {
+  .completed-items {
+    max-width: 600px;
+    width: 85vw;
+    height: 85vh;
+    padding: 0.75rem 0.5rem;
+    /**/
+    /* height: 70vh; */
+  }
+
+  .completed-center {
+    margin-bottom: 4px;
+  }
+
+  .completed-center p {
+    padding: 0.5rem 0.3rem;
+    font-size: 1.5rem;
+    /**/
+    font-size: 1.4rem;
+  }
+
+  .complete-btn {
+    flex: 0 0 50px;
+    /**/
+    flex: 0 0 60px;
+
+    /* border: 1px solid red; */
+  }
+  .complete-btn h2 {
+    font-size: 1.1rem;
+    padding: 0.125rem;
+    /**/
+    font-size: 0.8rem;
+    font-size: 1rem;
+  }
+}
+/*모바일 가로 & 태블릿 세로*/
+@media screen and (min-width: 480px) {
+  .completed-items {
+    max-width: 600px;
+    width: 85vw;
+    height: 85vh;
+    padding: 0.75rem 0.5rem;
+  }
+
+  .completed-center {
+    margin-bottom: 4px;
+  }
+
+  .completed-center p {
+    padding: 0.5rem 0.3rem;
+    font-size: 2.25rem;
+    /**/
+    font-size: 1.85rem;
+  }
+
+  .complete-btn {
+    flex: 0 0 60px;
+    /**/
+    flex: 0 0 62px;
+  }
+  .complete-btn h2 {
+    font-size: 1.3rem;
+    padding: 0.125rem;
+    /**/
+    font-size: 1.15rem;
+  }
+}
+/*태블릿 가로*/
+@media screen and (min-width: 768px) {
+  .completed-items {
+    max-width: 700px;
+    width: 85vw;
+    height: 85vh;
+    padding: 1rem 0.75rem;
+  }
+
+  .completed-center {
+    margin-bottom: 4px;
+  }
+
+  .completed-center p {
+    padding: 0.75rem 0.4rem;
+    font-size: 2.5rem;
+    /**/
+    font-size: 2.2rem;
+  }
+  .complete-btn {
+    flex: 0 0 70px;
+    /**/
+    flex: 0 0 65px;
+  }
+  .complete-btn h2 {
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    /**/
+    font-size: 1.25rem;
+    font-size: 1.2rem;
+  }
+}
+/*노트북 & 태블릿 가로*/
+@media screen and (min-width: 1024px) {
+  .completed-items {
+    max-width: 800px;
+    width: 85vw;
+    height: 85vh;
+    padding: 1.25rem 1rem;
+  }
+  .completed-center {
+    margin-bottom: 4px;
+  }
+  .completed-center p {
+    padding: 1rem 0.5rem;
+    font-size: 2.75rem;
+    /**/
+    font-size: 2.5rem;
+  }
+
+  .complete-btn {
+    flex: 0 0 80px;
+    /**/
+    flex: 0 0 70px;
+    flex: 0 0 66px;
+    /* border: 1px solid red; */
+  }
+  .complete-btn h2 {
+    font-size: 1.75rem;
+    padding: 0.25rem;
+    /**/
+    font-size: 1.4rem;
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .completed-items {
+    max-width: 900px;
+    width: 85vw;
+    height: 85vh;
+    padding: 1.3rem 1.125rem;
+  }
+  .completed-center {
+    margin-bottom: 5px;
+  }
+  .completed-center p {
+    padding: 1.25rem 0.6rem;
+    font-size: 2.75rem;
+    /* border: 1px solid red; */
+    /**/
+    font-size: 2.625rem;
+  }
+  .complete-btn {
+    flex: 0 0 75px;
+    /**/
+    flex: 0 0 68px;
+  }
+  .complete-btn h2 {
+    padding: 0.35rem;
+    font-size: 1.55rem;
+    /**/
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .completed-items {
+    max-width: 900px;
+    width: 85vw;
+    height: 85vh;
+    padding: 1.35rem 1.25rem;
+  }
+  .completed-center {
+    margin-bottom: 6px;
+  }
+  .completed-center p {
+    padding: 1.4rem 0.7rem;
+    font-size: 2.85rem;
+    /**/
+    font-size: 2.75rem;
+  }
+  .complete-btn {
+    flex: 0 0 80px;
+    /**/
+    flex: 0 0 70px;
+  }
+  .complete-btn h2 {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    /**/
+    font-size: 1.35rem;
+  }
+}
