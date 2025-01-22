@@ -1,0 +1,137 @@
+.home-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.home-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  margin: auto;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.25rem;
+}
+.content-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: cover;
+  opacity: 0.4;
+}
+.title-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem;
+  padding: 0.25rem;
+  width: 100%;
+  z-index: 2;
+  /* border: 1px solid green; */
+}
+.title-info h1 {
+  margin-bottom: 0.25rem;
+  /* border: 1px solid blue; */
+}
+.btn-links {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: bold;
+  z-index: 2;
+}
+.btn-links a {
+  margin: 0 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.btn-links a:hover {
+  background-color: rgb(184, 184, 184);
+}
+@media screen and (max-width: 479px) {
+  .content {
+    min-height: 100%;
+  }
+
+  .title-info h1 {
+    font-size: 2.2rem;
+  }
+  .btn-links {
+    flex-direction: column;
+    padding: 0.25rem;
+  }
+  .btn-links a {
+    display: block;
+    margin: 0.25rem 0;
+    /* margin: 1.5rem 0; */
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .content {
+    min-height: 100%;
+  }
+  .title-info h1 {
+    font-size: 2.25rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    gap: 0.25rem;
+    padding: 0.25rem;
+    width: 95vw;
+    max-height: 80vh;
+  }
+  .content {
+    height: 100%;
+  }
+  .title-info {
+    margin: 2.5rem;
+  }
+  .title-info h1 {
+    font-size: 2rem;
+  }
+  .btn-links {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .home-container {
+    max-height: 80vh;
+    width: 90vw;
+  }
+
+  .title-info h1 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .home-container {
+    max-height: 80vh;
+    width: 90vw;
+  }
+  .title-info h1 {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .home-container {
+    max-height: 80vh;
+    width: 90vw;
+  }
+  .title-info h1 {
+    font-size: 2.6rem;
+  }
+}

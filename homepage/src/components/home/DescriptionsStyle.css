@@ -1,0 +1,59 @@
+.description {
+  display: none;
+  border-radius: 0.5rem;
+  background-color: rgba(201, 201, 201, 0.8);
+}
+
+.activeSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.nextSlide,
+.prevSlide {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+    margin-top: 2.5rem;
+    padding: 0.5rem;
+    width: 80%;
+    min-height: 120px;
+    z-index: 3;
+  }
+  .activeSlide {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .description {
+    min-height: 130px;
+  }
+  .description p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .description {
+    min-height: 140px;
+  }
+  .description p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .description {
+    min-height: 150px;
+  }
+  .description p {
+    font-size: 1.3rem;
+  }
+}
