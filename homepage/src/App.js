@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home, About, Contact, Project } from "./pages";
 import SharedLayout from "./pages/SharedLayout";
 import { useEffect } from "react";
+import ErrorPage from "./components/error/ErrorPage";
 function App() {
   useEffect(() => {
     const setViewportHeight = () => {
@@ -36,6 +37,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="project" element={<Project />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<ErrorPage to="/" replace />} />
           </Route>
         </Routes>
       </BrowserRouter>

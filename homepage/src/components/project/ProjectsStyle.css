@@ -4,14 +4,11 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  /* border: 1px solid blue; */
 }
 .project {
-  /* display: none; */
   width: 100%;
   height: 100%;
   overflow-y: auto;
-  /* border: 1px solid red; */
 }
 @media screen and (max-width: 479px) {
 }

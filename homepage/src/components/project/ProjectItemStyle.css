@@ -3,23 +3,21 @@
   flex-direction: column;
   height: 100%;
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  /* border: 1px solid rgba(77, 77, 77, 0.2); */
   border-radius: 0.25rem;
 }
 
 .project-img-center {
-  /* flex: 0 0 40%; */
   flex: 1;
   position: relative;
   cursor: pointer;
-  /* border-radius: 0.25rem; */
 }
 .project-img {
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: fill;
-  /* border: 1px solid red; */
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
@@ -28,20 +26,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid #000; */
 }
 .skill-btn {
-  /* font-weight: bold; */
   flex: 0 0 15%;
-  cursor: pointer;
   border-color: transparent;
   background-color: transparent;
   background-color: rgb(216, 216, 216);
   color: #000;
-  /* border: 1px solid black; */
+  cursor: pointer;
 }
 .skill-btn p {
-  /* font-size: 2rem; */
   font-weight: bold;
 }
 
@@ -127,15 +121,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  /* .project-info h2 {
-    font-size: 1.6rem;
-  }
-  .skill-btn p {
-    font-size: 1.3rem;
-  }
-  .project-details a {
-    font-size: 1.3rem;
-  } */
   .project-info h2 {
     font-size: 1.5rem;
   }
@@ -147,15 +132,6 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  /* .project-info h2 {
-    font-size: 1.7rem;
-  }
-  .skill-btn p {
-    font-size: 1.4rem;
-  }
-  .project-details a {
-    font-size: 1.4rem;
-  } */
   .project-info h2 {
     font-size: 1.55rem;
   }

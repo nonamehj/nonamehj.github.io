@@ -96,6 +96,11 @@
   }
   .content {
     height: 100%;
+    width: 100%;
+
+    /**/
+    max-height: 70vh;
+    margin: auto;
   }
   .title-info {
     margin: 2.5rem;
