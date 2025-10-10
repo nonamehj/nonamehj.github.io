@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85a9db4a.css",
+    "main.js": "/static/js/main.69dc67cb.js",
+    "static/css/271.9f2a536a.chunk.css": "/static/css/271.9f2a536a.chunk.css",
+    "static/js/271.47f06873.chunk.js": "/static/js/271.47f06873.chunk.js",
+    "static/js/453.1eb5cc81.chunk.js": "/static/js/453.1eb5cc81.chunk.js",
+    "static/media/thumb-movielist.webp": "/static/media/thumb-movielist.fe3cd2f66f4fa4f210b6.webp",
+    "static/media/thumb-form.webp": "/static/media/thumb-form.e0510b34ce1916623053.webp",
+    "static/media/thumb-todo-calendar.webp": "/static/media/thumb-todo-calendar.a18e5df82d6ee0ac553d.webp",
+    "static/media/hero-image.webp": "/static/media/hero-image.d297f6d876aaa564c68a.webp",
+    "static/media/thumb-tableorder.webp": "/static/media/thumb-tableorder.1a5c5b92970f6f33904c.webp",
+    "static/media/category-form.webp": "/static/media/category-form.8bb4637b92f808ae5b30.webp",
+    "static/media/category-tableorder.webp": "/static/media/category-tableorder.cd6cea309426e61e5775.webp",
+    "static/media/category-movielist.webp": "/static/media/category-movielist.616e21544fe5e04a19f6.webp",
+    "static/media/category-todo-calendar.webp": "/static/media/category-todo-calendar.4584db06bce606e0a20b.webp",
+    "index.html": "/index.html",
+    "main.85a9db4a.css.map": "/static/css/main.85a9db4a.css.map",
+    "main.69dc67cb.js.map": "/static/js/main.69dc67cb.js.map",
+    "271.9f2a536a.chunk.css.map": "/static/css/271.9f2a536a.chunk.css.map",
+    "271.47f06873.chunk.js.map": "/static/js/271.47f06873.chunk.js.map",
+    "453.1eb5cc81.chunk.js.map": "/static/js/453.1eb5cc81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85a9db4a.css",
+    "static/js/main.69dc67cb.js"
+  ]
+}
