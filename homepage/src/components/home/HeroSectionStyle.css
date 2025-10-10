@@ -1,0 +1,100 @@
+.portfolio-hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 400px;
+}
+
+.portfolio-hero-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.portfolio-hero-titles {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  text-align: center;
+  /* border: 1px solid red; */
+  z-index: 1;
+}
+.portfolio-hero-titles h1 {
+  font-size: 2rem;
+}
+
+.portfolio-hero-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  opacity: 0.6;
+}
+.portfolio-hero-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  margin: 0.5rem;
+  z-index: 1;
+}
+.portfolio-hero-links ul {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-hero-links li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.25rem 1rem;
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+}
+.portfolio-hero-links a {
+  padding: 1rem 1.5rem;
+  color: #000;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .portfolio-hero-titles h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 479px) {
+  .portfolio-hero-titles h1 {
+    font-size: 1.9rem;
+  }
+  .portfolio-hero-links ul {
+    flex-direction: column;
+  }
+  .portfolio-hero-links li {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio-hero-titles h1 {
+    font-size: 2.1rem;
+  }
+
+  .portfolio-hero-links {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .portfolio-hero-titles h1 {
+    font-size: 2.2rem;
+  }
+}

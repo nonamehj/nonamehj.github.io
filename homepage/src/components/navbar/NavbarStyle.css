@@ -1,0 +1,144 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #fff; */
+  width: 100%;
+  /* border: 2px solid red; */
+  background-color: #f5f5f5;
+}
+.nav-center {
+  /* width: 90%; */
+  padding: 2rem 0.5rem;
+  /* border: 1px solid blue; */
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 1rem 0.5rem;
+  /* border: 1px solid red; */
+}
+.logo {
+  padding: 0.25rem;
+  color: #000;
+  text-transform: uppercase;
+}
+.nav-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 1.5rem;
+  color: #000;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.links a {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  font-weight: bold;
+  color: #000;
+  /* border: 1px solid blue; */
+}
+.links a:hover {
+  padding-left: 1.5rem;
+}
+.links-container {
+  height: 0;
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+
+@media screen and (max-width: 767px) {
+  .nav-center {
+    width: 100%;
+    padding: 0 0.25rem;
+  }
+  .nav-header {
+    padding: 1.5rem 0.5rem;
+  }
+  .nav-toggle {
+    font-size: 1.5rem;
+    /* border: 1px solid blue; */
+  }
+  .logo {
+    font-size: 1.6rem;
+  }
+  .links a {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 479px) {
+  .nav-center {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0.5rem;
+    width: 95%;
+    max-width: 1024px;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .logo {
+    font-size: 1.7rem;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+  }
+  .links a {
+    padding: 0;
+    margin: 0.6rem;
+    font-size: 1.15rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav-center {
+    width: 90%;
+    max-width: 1140px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .nav-center {
+    padding: 2.5rem 0;
+    width: 85%;
+    max-width: 1280px;
+  }
+  .logo {
+    font-size: 1.9rem;
+  }
+  .links a {
+    margin: 0.8rem;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .nav-center {
+    width: 85%;
+    max-width: 1440px;
+  }
+}

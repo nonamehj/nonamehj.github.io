@@ -1,0 +1,161 @@
+.project-article {
+  overflow-y: auto;
+  /* background-color: #f9f7ff; */
+  /* background-color: #f0f4ff; */
+}
+.project-skill-article {
+  /* padding: 0 0.5rem; */
+  align-items: flex-start;
+}
+.skill-detail {
+  /* position: absolute; */
+  padding: 0.25rem;
+  /* border: 1px solid blue; */
+}
+.skill-container {
+  padding: 0.25rem;
+  /* border: 1px solid red; */
+}
+
+.skill-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+  padding: 0.5rem 0.25rem;
+  font-size: 1.3rem;
+}
+.close-skill {
+  position: absolute;
+  right: 0;
+  margin-right: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 1.1rem;
+  color: #000;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+
+.skill-body {
+  margin: 0.25rem 0;
+  padding: 0.25rem;
+  font-weight: bold;
+}
+.skill-body p {
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.05rem;
+  text-transform: capitalize;
+}
+.skill-body p:first-child {
+  padding-left: 0.25rem;
+}
+.skill-body h4 {
+  margin-bottom: 0.25rem;
+  padding: 0.25rem;
+  font-size: 1.1rem;
+}
+.skill-body .skill-text {
+  /* margin-bottom: 0.25rem; */
+  /* border: 1px solid green; */
+}
+.skill-body ul {
+  padding: 0.25rem;
+  /* padding: 0.25rem 0.5rem; */
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  /* border: 1px solid purple; */
+}
+.skill-body ul li {
+  padding: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.05rem;
+}
+
+.footer-close-skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+  background-color: transparent;
+  border-color: transparent;
+  color: #000;
+  cursor: pointer;
+}
+
+hr {
+  margin: 0.25rem 0;
+  border-top: 2px solid #ddd;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .skill-container {
+    padding: 0;
+  }
+  .skill-header {
+    padding: 0.5rem 0.25rem;
+    font-size: 1.2rem;
+  }
+  .skill-body {
+    padding: 0.25rem;
+  }
+
+  .skill-body p {
+    font-size: 1rem;
+    /* border: 1px solid red; */
+  }
+  .skill-body h4 {
+    font-size: 1.2rem;
+  }
+  .skill-body ul li {
+    font-size: 1rem;
+  }
+  .close-skill,
+  .footer-close-skill {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skill-header {
+    font-size: 1.3rem;
+  }
+  .skill-body p {
+    font-size: 1.05rem;
+  }
+  .skill-body h4 {
+    font-size: 1.3rem;
+  }
+  .skill-body ul li {
+    font-size: 1.05rem;
+  }
+  .close-skill,
+  .footer-close-skill {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .skill-header {
+    font-size: 1.4rem;
+  }
+  .skill-body p {
+    font-size: 1.1rem;
+  }
+  .skill-body h4 {
+    font-size: 1.4rem;
+  }
+  .skill-body ul li {
+    font-size: 1.1rem;
+  }
+  .close-skill,
+  .footer-close-skill {
+    font-size: 1.2rem;
+  }
+}
