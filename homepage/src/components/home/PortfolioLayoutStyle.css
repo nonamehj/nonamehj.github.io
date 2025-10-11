@@ -49,9 +49,11 @@
 @media screen and (min-width: 768px) {
   .portfolio-pc-layout {
     grid-template-columns: 1fr 1.5fr;
+    /* border: 1px solid red; */
   }
   .protfolio-gallery-pc-layout {
     grid-template-columns: 1fr 2fr;
+    /* border: 1px solid blue; */
   }
   .pc-thumbnails {
     display: flex;
