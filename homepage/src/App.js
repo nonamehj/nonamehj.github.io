@@ -1,6 +1,7 @@
 import "./index.css";
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import SharedLayout from "./sharedLayout/SharedLayout";
 import { HomePage, ContactPage, AboutPage, ProjectsPage } from "./pages";
 
@@ -29,7 +30,8 @@ function App() {
     };
   }, []);
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<HomePage />} />
@@ -39,7 +41,8 @@ function App() {
           <Route path="*" element={<div>error</div>} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
+    // </BrowserRouter>
   );
 }
 

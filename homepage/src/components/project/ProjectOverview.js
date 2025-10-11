@@ -25,7 +25,7 @@ const ProjectOverview = ({
         </button>
         <div className="project-detail-links">
           <a
-            href={projectLinks.resuet}
+            href={projectLinks.result}
             target="_blank"
             rel="noopener noreferrer"
             className="project-left"
@@ -37,7 +37,7 @@ const ProjectOverview = ({
             href={projectLinks.source}
             target="_blank"
             rel="noopener noreferrer"
-            className="project-left"
+            className="project-right"
           >
             {/* source */}
             깃허브
