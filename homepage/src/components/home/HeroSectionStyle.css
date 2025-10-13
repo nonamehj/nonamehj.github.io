@@ -45,10 +45,8 @@
   padding: 0.25rem;
   margin: 0.5rem;
   z-index: 1;
-  /* border: 1px solid red; */
 }
 .portfolio-hero-links ul {
-  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,14 +59,23 @@
   width: 100%;
   border: 2px solid #ddd;
   border-radius: 0.25rem;
-  background-color: lightgray;
-  /* border: 1px solid red; */
 }
+
 .portfolio-hero-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1rem 1.5rem;
+  width: 100%;
+
   color: #000;
+  background-color: rgba(211, 211, 211, 0.5);
   cursor: pointer;
 }
+.portfolio-hero-links a:hover {
+  background-color: rgba(211, 211, 211, 0.8);
+}
+
 @media screen and (max-width: 767px) {
   .portfolio-hero-titles h1 {
     font-size: 2rem;
@@ -86,7 +93,7 @@
     flex-direction: column;
   }
   .portfolio-hero-links li {
-    width: 100%;
+    /* width: 100%; */
   }
   .portfolio-hero-links a {
     padding: 1rem 1rem;
