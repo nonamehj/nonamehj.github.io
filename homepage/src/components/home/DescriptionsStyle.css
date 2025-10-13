@@ -45,7 +45,6 @@
 
 @media screen and (min-width: 1280px) {
   .hero-desc {
-    /* min-height: 110px; */
     min-height: clamp(140px, 22vh, 180px);
     font-size: 1.2rem;
   }

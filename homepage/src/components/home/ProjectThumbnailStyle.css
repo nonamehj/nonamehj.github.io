@@ -49,14 +49,9 @@
   .thumbnail-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, clamp(160px, 28vh, 260px));
-    /**/
-    /* grid-template-rows: repeat(2, clamp(160px, 24vh, 220px)); */
-    padding: 0.5rem;
-    /* padding: 0.5rem 1rem; */
+    /* grid-template-rows: repeat(2, clamp(160px, 28vh, 260px)); */
+    grid-template-rows: repeat(2, clamp(160px, 25vh, 240px));
     padding: 1rem;
-    min-height: 160px;
-    /* border: 2px solid red; */
   }
 
   .thumbnail-btn {
@@ -70,11 +65,9 @@
     flex-direction: column;
   }
   .thumbnail-article {
-    height: clamp(140px, 28vh, 220px);
+    /* height: clamp(140px, 28vh, 220px); */
+    height: clamp(140px, 25vh, 220px);
     /**/
-    /* height: clampp(140px, 25vh, 180px); */
-    /* min-height: 140px; */
-
     /* width: clamp(120px, 90%, 100%); */
   }
 }
@@ -91,10 +84,11 @@
   .thumbnail-article {
     grid-template-columns: 1fr 70px;
     /* height: clamp(180px, 30vh, 260px); */
-    height: clamp(180px, 25vh, 240px);
+    /* height: clamp(180px, 25vh, 240px); */
+    height: clamp(160px, 28vh, 240px);
+
     /* width: calmp(180px, 40%, 280px); */
     /* width: clamp(180px, 33%, 280px); */
-    /* min-height: 180px; */
   }
   .thumbnail-btn {
     font-size: 1.125rem;
@@ -110,7 +104,8 @@
     grid-template-columns: 1fr 90px;
 
     /* height: clamp(200px, 32vh, 280px); */
-    height: clamp(200px, 28vh, 260px);
+    /* height: clamp(200px, 28vh, 260px); */
+    height: clamp(180px, 28vh, 260px);
   }
   .thumbnail-btn {
     font-size: 1.25rem;
