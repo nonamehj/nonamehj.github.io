@@ -40,6 +40,9 @@
 @media screen and (max-width: 767px) {
   .portfolio-hero-wrapper {
     min-height: calc(100vh - 90px);
+    /* 아래 테스트 후에 안맞으면 다시 위에껄로 */
+    /* height: calc(100vh - 90px); */
+
     position: relative;
   }
   .portfolio-thumbanils-wrapper {

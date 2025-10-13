@@ -93,7 +93,7 @@
     /* height: clamp(180px, 30vh, 260px); */
     height: clamp(180px, 25vh, 240px);
     /* width: calmp(180px, 40%, 280px); */
-    width: clamp(180px, 33%, 280px);
+    /* width: clamp(180px, 33%, 280px); */
     /* min-height: 180px; */
   }
   .thumbnail-btn {
