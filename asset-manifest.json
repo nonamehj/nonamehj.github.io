@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3849f56b.css",
+    "main.css": "/static/css/main.40a8d163.css",
     "main.js": "/static/js/main.44edef41.js",
     "static/css/271.9f2a536a.chunk.css": "/static/css/271.9f2a536a.chunk.css",
     "static/js/271.47f06873.chunk.js": "/static/js/271.47f06873.chunk.js",
@@ -15,14 +15,14 @@
     "static/media/category-movielist.webp": "/static/media/category-movielist.616e21544fe5e04a19f6.webp",
     "static/media/category-todo-calendar.webp": "/static/media/category-todo-calendar.4584db06bce606e0a20b.webp",
     "index.html": "/index.html",
-    "main.3849f56b.css.map": "/static/css/main.3849f56b.css.map",
+    "main.40a8d163.css.map": "/static/css/main.40a8d163.css.map",
     "main.44edef41.js.map": "/static/js/main.44edef41.js.map",
     "271.9f2a536a.chunk.css.map": "/static/css/271.9f2a536a.chunk.css.map",
     "271.47f06873.chunk.js.map": "/static/js/271.47f06873.chunk.js.map",
     "453.1eb5cc81.chunk.js.map": "/static/js/453.1eb5cc81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3849f56b.css",
+    "static/css/main.40a8d163.css",
     "static/js/main.44edef41.js"
   ]
 }
