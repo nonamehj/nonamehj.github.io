@@ -1,9 +1,9 @@
 import "./HomeStyle.css";
 import React, { useEffect, useState, useCallback } from "react";
 import ProjectThumbnail from "./ProjectThumbnail";
-import Descriptions from "./Descriptions";
+// import Descriptions from "./Descriptions";
 // import homeImg from "../../images/home-img.webp";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ProjectGallery from "./ProjectGallery";
 import { galleryData } from "../../data";
 import HeroSection from "./HeroSection";

@@ -34,8 +34,8 @@ export const data = [
     description:
       "오늘의 할 일과 날짜별 일정을 통합 관리할 수 있도록 설계되었습니다. 메인 화면에서는 일정 관리에서 작성된 미완료 항목을 일부만 미리 확인할 수 있고, '오늘 할 일'에서는 일상적인 할 일을 작성·관리할 수 있습니다. 또한 '일정 관리' 기능을 통해 원하는 날짜를 선택해 해당 날짜에 필요한 할 일을 등록하고, 진행 상황에 따라 미완료 항목만 정렬하여 보여줍니다. 이를 통해 사용자는 일상적인 작업부터 특정 날짜의 일정까지 한 번에 효율적으로 관리할 수 있습니다.",
     projectLinks: {
-      result: "https://nonamehj.github.io/todo-calendar",
-      source: "https://github.com/nonamehj/todo-calendar",
+      result: "https://nonamehj.github.io/todo-calendar-app",
+      source: "https://github.com/nonamehj/todo-calendar-app",
     },
   },
   {
