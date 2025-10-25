@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8d8e90f2.css",
-    "main.js": "/static/js/main.d9f9cfe2.js",
+    "main.js": "/static/js/main.eea1bddb.js",
     "static/css/271.9f2a536a.chunk.css": "/static/css/271.9f2a536a.chunk.css",
     "static/js/271.316bb392.chunk.js": "/static/js/271.316bb392.chunk.js",
     "static/js/453.1eb5cc81.chunk.js": "/static/js/453.1eb5cc81.chunk.js",
@@ -16,13 +16,13 @@
     "static/media/category-todo-calendar.webp": "/static/media/category-todo-calendar.4584db06bce606e0a20b.webp",
     "index.html": "/index.html",
     "main.8d8e90f2.css.map": "/static/css/main.8d8e90f2.css.map",
-    "main.d9f9cfe2.js.map": "/static/js/main.d9f9cfe2.js.map",
+    "main.eea1bddb.js.map": "/static/js/main.eea1bddb.js.map",
     "271.9f2a536a.chunk.css.map": "/static/css/271.9f2a536a.chunk.css.map",
     "271.316bb392.chunk.js.map": "/static/js/271.316bb392.chunk.js.map",
     "453.1eb5cc81.chunk.js.map": "/static/js/453.1eb5cc81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8d8e90f2.css",
-    "static/js/main.d9f9cfe2.js"
+    "static/js/main.eea1bddb.js"
   ]
 }
