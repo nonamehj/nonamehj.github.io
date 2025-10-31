@@ -21,7 +21,6 @@ const SkillDetail = ({
               <FaTimes />
             </button>
             <h3>프로젝트 개요</h3>
-            {/* <h3>{title}</h3> */}
           </div>
           <div className="skill-body">
             <p>{overview}</p>

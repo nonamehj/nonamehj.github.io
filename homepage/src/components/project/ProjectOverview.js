@@ -30,7 +30,6 @@ const ProjectOverview = ({
             rel="noopener noreferrer"
             className="project-left"
           >
-            {/* view */}
             프로젝트
           </a>
           <a
@@ -39,7 +38,6 @@ const ProjectOverview = ({
             rel="noopener noreferrer"
             className="project-right"
           >
-            {/* source */}
             깃허브
           </a>
         </div>

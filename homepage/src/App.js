@@ -1,5 +1,5 @@
 import "./index.css";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import SharedLayout from "./sharedLayout/SharedLayout";

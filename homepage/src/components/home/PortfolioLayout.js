@@ -59,7 +59,6 @@ const PortfolioLayout = () => {
             </div>
             <div className="pc-content portfolio-main">
               {activeItem ? (
-                // <div className="portfolio-gallery-wrapper">
                 <Suspense fallback={<Loading />}>
                   <ProjectGallery
                     activeItem={activeItem}
@@ -69,7 +68,6 @@ const PortfolioLayout = () => {
                   />
                 </Suspense>
               ) : (
-                // </div>
                 <HeroSection />
               )}
             </div>

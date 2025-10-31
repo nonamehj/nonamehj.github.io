@@ -2,7 +2,7 @@ import "./ProjectGalleryStyle.css";
 import { useEffect, useState, useRef } from "react";
 import { FaArrowLeft, FaArrowUp } from "react-icons/fa";
 const ProjectGallery = ({ activeItem, setActiveId, activeId }) => {
-  const { id, images, title } = activeItem;
+  const { images, title } = activeItem;
 
   const [isActiveBtn, setIsActiveBtn] = useState(true);
   const galleryRef = useRef(null);
@@ -24,7 +24,6 @@ const ProjectGallery = ({ activeItem, setActiveId, activeId }) => {
   useEffect(() => {
     if (activeRef.current) {
       activeRef.current.scrollTop = 0;
-      // activeRef.current.scrollIntoView({ behavior: "auto", block: "start" });
     }
   }, [isActiveBtn, activeId]);
   return (
@@ -46,7 +45,6 @@ const ProjectGallery = ({ activeItem, setActiveId, activeId }) => {
             className={`low-btn portfolio-gallery-toggle-low ${
               !isActiveBtn ? "active-btn" : ""
             }`}
-            // onClick={() => setIsActiveBtn(false)}
             onClick={() => handleToggleBtn(false)}
           >
             <span>767px 이하</span>
@@ -55,7 +53,6 @@ const ProjectGallery = ({ activeItem, setActiveId, activeId }) => {
             className={`high-btn portfolio-gallery-toggle-hight ${
               isActiveBtn ? "active-btn" : ""
             }`}
-            // onClick={() => setIsActiveBtn(true)}
             onClick={() => handleToggleBtn(true)}
           >
             <span>768px 이상</span>
@@ -81,9 +78,6 @@ const ProjectGallery = ({ activeItem, setActiveId, activeId }) => {
                         src={item.photo}
                         alt={item.feature}
                         className="gallery-item-image portfolio-gallery-item-image"
-                        // onClick={() =>
-                        //   window.open(item.photo, "popup", "width:400,height:400")
-                        // }
                       />
                     </a>
                   </div>
@@ -104,9 +98,6 @@ const ProjectGallery = ({ activeItem, setActiveId, activeId }) => {
                         src={item.photo}
                         alt={item.feature}
                         className="gallery-item-image portfolio-gallery-item-image"
-                        // onClick={() =>
-                        //   window.open(item.photo, "popup", "width:400,height:400")
-                        // }
                       />
                     </a>
                   </div>

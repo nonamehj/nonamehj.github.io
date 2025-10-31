@@ -6,7 +6,6 @@
   height: 100%;
   width: 100%;
   background-color: rgba(245, 245, 245, 0.5);
-  /* border: 1px solid red; */
 }
 .gallery-container {
   flex: 1;
@@ -16,7 +15,6 @@
   align-items: center;
   width: 100%;
   overflow: hidden;
-  /* border: 1px solid blue; */
 }
 .gallery-btns-wrapper {
   display: flex;
@@ -62,7 +60,6 @@
   position: relative;
   border: 3px solid #dcdcdc;
   border-radius: 0.25rem;
-  /* box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8); */
 }
 .gallery-item-image {
   position: absolute;
@@ -74,18 +71,13 @@
 
 @media screen and (max-width: 767px) {
   .gallery-container {
-    /* padding: 0.25rem 1rem; */
     padding: 0.5rem 1rem;
   }
   .gallery-btns-wrapper button {
     margin-top: 0.5rem;
   }
   .gallery-images {
-    /* grid-template-rows: repeat(2, clamp(160px, 28vh, 260px)); */
-    /* grid-auto-rows: clamp(160px, 28vh, 260px); */
-    /* grid-auto-rows: clamp(220px, 28vh, 280px); */
     grid-auto-rows: clamp(220px, 32vh, 300px);
-    /* min-height: 160px; */
   }
   .gallery-btns-wrapper {
     padding: 0.5rem;
@@ -95,7 +87,6 @@
   }
   .gallery-btns-wrapper span {
     font-size: 1rem;
-    /* font-size: 0.95rem; */
   }
   .gallery-up-btns {
     justify-content: flex-end;
@@ -105,21 +96,13 @@
   .gallery-container {
     padding: 0;
     padding: 0.25rem;
-    /* padding: 0.5rem; */
   }
   .gallery-images {
     display: flex;
     flex-direction: column;
   }
   .gallery-item {
-    /* width: 95%; */
-
-    /* height: clampp(140px, 28vh, 220px); */
-    /* height: clamp(200px, 28vh, 240px); */
     height: clamp(200px, 30vh, 260px);
-    /* margin: 0 auto; */
-    /* min-height: 140px; */
-    /* min-height: 200px; */
   }
   .gallery-btns-wrapper button {
     flex: 1 auto;
@@ -128,12 +111,7 @@
 }
 @media screen and (min-width: 768px) {
   .gallery-images {
-    /* grid-auto-rows: clamp(180px, 30vh, 280px); */
-    /* grid-auto-rows: clamp(180px, 30vh, 280px); */
-    /* grid-auto-rows: clamp(220px, 30vh, 280px); */
     grid-auto-rows: clamp(220px, 32vh, 300px);
-    /* min-height: 180px; */
-    /* min-height: 200px; */
   }
   .gallery-btns-wrapper button {
     margin-top: 0.25rem;
@@ -147,9 +125,7 @@
 }
 @media screen and (min-width: 1280px) {
   .gallery-images {
-    /* grid-auto-rows: clamp(200px, 32vh, 300px); */
     grid-auto-rows: clamp(200px, 34vh, 320px);
-    /* min-height: 200px; */
   }
   .gallery-btns-wrapper span {
     font-size: 1.25rem;

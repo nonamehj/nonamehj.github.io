@@ -1,20 +1,14 @@
 .project-article {
   overflow-y: auto;
-  /* background-color: #f9f7ff; */
-  /* background-color: #f0f4ff; */
 }
 .project-skill-article {
-  /* padding: 0 0.5rem; */
   align-items: flex-start;
 }
 .skill-detail {
-  /* position: absolute; */
   padding: 0.25rem;
-  /* border: 1px solid blue; */
 }
 .skill-container {
   padding: 0.25rem;
-  /* border: 1px solid red; */
 }
 
 .skill-header {
@@ -38,7 +32,6 @@
   font-size: 1.1rem;
   color: #000;
   cursor: pointer;
-  /* border: 1px solid red; */
 }
 
 .skill-body {
@@ -60,16 +53,11 @@
   padding: 0.25rem;
   font-size: 1.1rem;
 }
-.skill-body .skill-text {
-  /* margin-bottom: 0.25rem; */
-  /* border: 1px solid green; */
-}
+
 .skill-body ul {
   padding: 0.25rem;
-  /* padding: 0.25rem 0.5rem; */
   margin-bottom: 0.25rem;
   font-size: 1rem;
-  /* border: 1px solid purple; */
 }
 .skill-body ul li {
   padding: 0.25rem;
@@ -109,7 +97,6 @@ hr {
 
   .skill-body p {
     font-size: 1rem;
-    /* border: 1px solid red; */
   }
   .skill-body h4 {
     font-size: 1.2rem;
