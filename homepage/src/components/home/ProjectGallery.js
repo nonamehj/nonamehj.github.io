@@ -19,13 +19,16 @@ const ProjectGallery = ({ activeItem, setActiveId, activeId }) => {
       galleryRef.current.scrollTop = 0;
       galleryRef.current.scrollIntoView({ behavior: "auto", block: "start" });
     }
-    setIsActiveBtn(true);
   }, []);
   useEffect(() => {
     if (activeRef.current) {
       activeRef.current.scrollTop = 0;
     }
   }, [isActiveBtn, activeId]);
+
+  useEffect(() => {
+    setIsActiveBtn(true);
+  }, [activeId]);
   return (
     <section
       className="gallery-section portfolio-gallery-section"
@@ -47,7 +50,8 @@ const ProjectGallery = ({ activeItem, setActiveId, activeId }) => {
             }`}
             onClick={() => handleToggleBtn(false)}
           >
-            <span>767px 이하</span>
+            {/* <span>767px 이하</span> */}
+            <span>모바일</span>
           </button>
           <button
             className={`high-btn portfolio-gallery-toggle-hight ${
@@ -55,7 +59,8 @@ const ProjectGallery = ({ activeItem, setActiveId, activeId }) => {
             }`}
             onClick={() => handleToggleBtn(true)}
           >
-            <span>768px 이상</span>
+            {/* <span>768px 이상</span> */}
+            <span>PC</span>
           </button>
         </div>
         <div
